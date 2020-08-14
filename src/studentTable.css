@@ -1,0 +1,31 @@
+table{
+    border:1px solid black;
+    margin:40px;
+    border-spacing: 0px;
+}
+th,td{
+    border:1px solid black;
+}
+th{
+    padding-right: 80px;
+}
+.thead{
+    font-weight: bold;
+    font-style: italic;
+}
+th,td:nth-child(3){
+    text-align: right;
+}
+th:nth-child(1){
+    text-align: left;
+}
+.red{
+    color:red;
+}
+.green{
+    color:green;
+}
+#btnreg{
+    margin-top:15px;
+    margin-left:40px;
+}
